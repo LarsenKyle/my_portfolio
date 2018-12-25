@@ -48,6 +48,19 @@
         'skill3';
         grid-template-columns: 1fr;
     }
+    .content{
+        width: 100%;
+    }
+    h1{
+        &.offset{
+            position: inherit;
+            margin-bottom: 1rem;
+        }
+    }
+    .off{
+        position: unset;
+        text-align: left;
+    }
 }
 // Wide
 @include mediaSm{

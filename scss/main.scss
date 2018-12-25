@@ -26,6 +26,12 @@ h3{
     &.lg-heading{
         font-size: 6rem;
     }
+    &.offset{
+        position: relative;
+        right: 70px;
+        
+        font-size: 5rem;
+    }
     &.sm-heading{
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
@@ -59,6 +65,9 @@ main{
             @include easeOut();
         
             }
+        }
+        &.icons-contact{
+            text-align: center;
         }
     }
     &#home{
@@ -115,6 +124,50 @@ main{
     height: 40px;
     
 }
+.coming-soon{
+    text-align: center;
+    font-size: 3rem;
 
+}
+//contact page
+input[type=text],textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    
+  }
+  textarea{
+      min-height: 200px;
+      font-size: 1.3rem;
+      resize: none;
+  }
+  .content{
+      width: 50%;
+      margin: 0 auto;
+  }
+  .button{
+    background-color:$secondary-color;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+  }
+  label{
+      font-size: 1.5rem;
+      padding-bottom: 15px;
+      
+  }
+  .off{
+    position: relative;
+    right: 25px;
+    
+  }
 
 @import 'mobile';
