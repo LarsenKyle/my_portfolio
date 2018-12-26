@@ -282,3 +282,9 @@ label {
   .off {
     position: unset;
     text-align: left; } }
+
+@media screen and (max-width: 500px) {
+  main {
+    padding: 2rem; }
+    main .lg-heading {
+      font-size: 4rem; } }
