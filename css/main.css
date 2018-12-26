@@ -108,7 +108,7 @@ body {
   margin: 0;
   line-height: 1.5; }
   body#bg-image {
-    background: url(../img/main.jpg);
+    background: url(../img/mainsm.jpg);
     background-size: cover;
     background-attachment: fixed; }
     body#bg-image:after {
